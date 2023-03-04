@@ -256,6 +256,7 @@ main section img{
     top: 350px;
     padding-right: 15px;
 }
+/*For smaller screens*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
