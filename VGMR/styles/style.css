@@ -69,14 +69,16 @@ h2{
 .msg{
     grid-column: 6/9;
     grid-row: 1/4;
-    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-top: 15px;
     padding-left: 15px;
+    padding-right: 15px;
     text-align: left;
     font-size:large;
 }
 .msg2{
-    padding-left: 15px;
-    padding-top: 100px;
+    padding-top: 60px;
+    padding-left: 25px;
     grid-row: 3;
     grid-column: 1/5;
     text-align: left;
@@ -103,6 +105,29 @@ h2{
     grid-column: 2/8;
     grid-row: 3;
     padding-bottom: 25px;
+}
+/*Puzzles*/
+.puzzles-grid{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+.puzzle-img{
+    width: 100%
+}
+.rubix-img{
+    width: 100%;
+}
+.puzzle-peices{
+    grid-column: 1/5;
+    padding: 35px;
+}
+.rubix-cube{
+    grid-column: 4/9;
+    padding: 35px;
+}
+.puzzlep{
+    grid-row: 2;
+    grid-column: 2/8;
 }
 /*Footer content*/
 footer{
